@@ -13,6 +13,7 @@ import java.util.TimeZone;
 
 @SpringBootApplication
 @EntityScan(basePackageClasses = { BlogApplication.class, Jsr310Converters.class })
+
 public class BlogApplication {
 
     public static void main(String[] args) {
