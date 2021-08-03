@@ -2,7 +2,7 @@ Tạo Roles trong DB trước:
 ROLE_ADMIN,
 ROLE_USER
 
-# Sign Up -> /api/auth/signup
+# Sign Up -> /api/auth/register
 {
 	"firstName": "alex",
 	"lastName": "wang",
@@ -11,7 +11,7 @@ ROLE_USER
 	"email": "alexvuth@gmail.com"
 }
 
-# Log In -> /api/auth/signin
+# Log In -> /api/auth/login
 {
 	"usernameOrEmail": "alexvu",
 	"password": "123456"
